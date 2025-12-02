@@ -83,9 +83,9 @@ console.log(suma);
 
 document.writeln(`<br/> El valor de la suma de los numeros ingresados es: ${suma}`)
 
+let numeroPar = 2;
 
-
-
+let numeroDos = "2";
 
 
 
