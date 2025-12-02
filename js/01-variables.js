@@ -26,7 +26,7 @@ console.log(taiga);
 
 //VAR mutable, no es recomendable el uso porque no respeta bloque, scope (ambito) global y local. variable mutable.
 
-var a = 1;
+var a;
 
 a = 2;
 
@@ -67,7 +67,25 @@ const nombreUsuario = prompt("Ingresa tu nombre");
 
 console.log(nombreUsuario);
 
-document.writeln(`<br/> Bienvenido ${nombreUsuario} 👩🏽‍💻`)
+document.writeln(`<br/> Bienvenido ${nombreUsuario} 👩🏽‍💻`);
+
+//Ejercicio de la suma
+
+let num1 = parseInt(prompt('Ingrese un numero'));
+
+let num2 = parseInt(prompt('Ingrese otro numero'));
+
+let suma;
+
+suma = num1 + num2;
+console.log(suma);
+
+
+document.writeln(`<br/> El valor de la suma de los numeros ingresados es: ${suma}`)
+
+
+
+
 
 
 
