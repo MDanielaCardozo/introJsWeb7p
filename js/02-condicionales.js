@@ -34,3 +34,5 @@ if(isNaN(edad)) {
     document.writeln("Sos menor de edad 😁")
 }
 }
+
+console.log();

@@ -87,6 +87,12 @@ let numeroPar = 2;
 
 let numeroDos = "2";
 
+console.log(numeroPar == numeroDos);
+
+console.log(numeroPar === numeroDos);
+
+
+
 
 
 
