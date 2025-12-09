@@ -1,6 +1,6 @@
 //Programa en el que le pedimos al usuario que nos ingrese el dia de la semana en que esta. En funcion del dia devolverle un msj.
-
-const diaSemana = parseInt(prompt("Ingresa un numero de la semana: 1-Lunes 2-Martes 3-Miercoles 4-Jueves 5-Viernes 6-Sabado 7-Domingo."));
+do {
+    const diaSemana = parseInt(prompt("Ingresa un numero de la semana: 1-Lunes 2-Martes 3-Miercoles 4-Jueves 5-Viernes 6-Sabado 7-Domingo."));
 
 switch (diaSemana) {
     case 1:
@@ -28,3 +28,4 @@ switch (diaSemana) {
         document.writeln('Ingresaste una opcion erronea.')
         break;
 }
+} while (confirm("Quieres volver a realizar esta operacion?"));
