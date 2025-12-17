@@ -12,6 +12,11 @@
   codigo a ejecutar si no se cumple la condicion
 } */
 
+  //OPTIONAL CHAINING
+
+  //() ? {} : {}
+
+  /*  */
 
   //Pedir al usuario que nos diga la edad y evaluar si es mayor de 18 anios
 

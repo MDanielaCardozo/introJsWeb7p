@@ -92,7 +92,16 @@ console.log(numeroPar == numeroDos);
 console.log(numeroPar === numeroDos);
 
 
+/* let i = 1;
 
+while (i <= 10) {
+    document.writeln(`5 * ${i} = ${5 * i} </br>`);
+    i++
+} */
+
+for (let i = 1; i <= 10; i++){
+  document.writeln(`5 * ${i} = ${5 * i} </br>`);
+}
 
 
 

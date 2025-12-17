@@ -46,8 +46,42 @@ numbers.unshift(20);
 console.log(numbers);
 
 //metodo splice() tres parametros 1posicion 2cantidad de elementos y el 3 el valor que queremos agregar al array
-numbers.splice(2, 3, 16);
+numbers.splice(2, 3, 16, 18);
 console.log(numbers);
+
+//METODOS INMUTABLES( QUE NO NOS MODIFICA EL ARRAY ORIGINAL, HACEMOS UN DUPLICADO)
+
+//map()
+let numeritos = [1, 2, 3, 4, 5, 6, 7];
+
+let dobles = numeritos.map(n => n * 2);
+
+console.log(dobles);
+
+//slice() corta el array incluyendo la primera posicion determinada en el primer parametro y excluye a la posicion determinada en el segundo parametro.
+let a = [10, 20, 30, 40];
+
+let b = a.slice(0,2);
+
+console.log(b);
+
+//concat() concatena
+let c = [1, 2].concat([3, 4]);
+
+console.log(c);
+
+//find() devuelve el primer valor que cumpla con una condicion
+let encontrado = numeritos.find(n => n > 4);
+
+console.log(encontrado);
+
+//filter() devuelve todos los valores que cumplan con la condicion
+
+let filtrados = numeritos.filter(n => n >= 4);
+
+console.log(filtrados);
+
+
 
 
 
