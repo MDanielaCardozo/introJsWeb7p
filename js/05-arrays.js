@@ -71,6 +71,7 @@ let c = [1, 2].concat([3, 4]);
 console.log(c);
 
 //find() devuelve el primer valor que cumpla con una condicion
+
 let encontrado = numeritos.find(n => n > 4);
 
 console.log(encontrado);
@@ -80,6 +81,17 @@ console.log(encontrado);
 let filtrados = numeritos.filter(n => n >= 4);
 
 console.log(filtrados);
+
+//Spread operator
+
+//Programa que nos pide decime cual es el mayor de las edades del array.
+
+const edades = [49, 15, 26, 89, 27]
+
+console.log(Math.max(...edades));
+
+document.writeln(`El mayor del array edades es ${Math.max(...edades)} </br>`)
+document.writeln(`El menor del array edades es ${Math.min(...edades)}`)
 
 
 
