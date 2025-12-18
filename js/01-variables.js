@@ -4,3 +4,114 @@
 de varias 
 lineas */
 
+//Tipos de variables
+
+let number = 3; //Variable mutable, respeta scope local o global
+
+var nombre = 'Jose'; //Variable mutable, no respeta scope local o global
+
+const apellido = 'Diaz' //Variable inmutable, respeta scope 
+
+console.log("Hola mundo");
+console.info("Hola mundo");
+console.warn("Hola mucho");
+console.error("Hola mundo");
+
+/* document.writeln("Hola mundo"); */
+/* document.writeln("<h1 class='text-blue'>Hola mundo</h1>"); */
+
+const taiga = "https://tree.taiga.io/";
+
+console.log(taiga);
+
+//VAR mutable, no es recomendable el uso porque no respeta bloque, scope (ambito) global y local. variable mutable.
+
+var a;
+
+a = 2;
+
+var a = 3;
+
+// LET mutable, uso recomendable porque respeta el bloque {}, scope local y global.
+
+let b =10;
+
+b = 20;
+
+/* let b =30; */
+
+
+// CONST inmutable, respeta bloque {}
+
+const c = 100;
+
+/* c = 200 */
+
+const numeros = [1, 2, 3];
+
+numeros.push(4);
+
+console.log(numeros);
+
+let curso = "Fullstack MERN"
+
+document.writeln('<br/>Curso ' + curso )
+
+curso = "Nextjs";
+
+document.writeln(`<br/>Curso ${curso}`)
+
+//solicitar al usuario su nombre que cargue por pantalla
+
+const nombreUsuario = prompt("Ingresa tu nombre");
+
+console.log(nombreUsuario);
+
+document.writeln(`<br/> Bienvenido ${nombreUsuario} 👩🏽‍💻`);
+
+//Ejercicio de la suma
+
+let num1 = parseInt(prompt('Ingrese un numero'));
+
+let num2 = parseInt(prompt('Ingrese otro numero'));
+
+let suma;
+
+suma = num1 + num2;
+console.log(suma);
+
+
+document.writeln(`<br/> El valor de la suma de los numeros ingresados es: ${suma}`)
+
+let numeroPar = 2;
+
+let numeroDos = "2";
+
+console.log(numeroPar == numeroDos);
+
+console.log(numeroPar === numeroDos);
+
+
+/* let i = 1;
+
+while (i <= 10) {
+    document.writeln(`5 * ${i} = ${5 * i} </br>`);
+    i++
+} */
+
+for (let i = 1; i <= 10; i++){
+  document.writeln(`5 * ${i} = ${5 * i} </br>`);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
